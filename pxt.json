@@ -1,0 +1,41 @@
+{
+    "name": "AI음성인식 주행 포니봇",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "ai-ponybot-basic": "github:boundary-x/ai_ponybot_basic#v1.3.1",
+        "bluetooth": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable8.0",
+        "tag": "v8.0.22",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/0657a603250be13848e043e55be26bb21bb0d9a7",
+        "target": "9.0.12",
+        "pxt": "12.0.19",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
